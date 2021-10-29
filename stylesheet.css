@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/wallpaper.jpeg);
+}
+
+#etchASketch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 5px 5px 5px 5px black;
+    border: 3px black;
+}
+
+@font-face {
+        font-family: Neon;
+        src: url(./Neon.ttf);
+    }
+
+#etchArea {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color:white;
+    border: red;
+    
+
+}
+
+.square, .mouseoff {
+    background-color: white;
+}
+
+.mouseover {
+    background-color: black;
+}
+
+title, h1 {
+    color: gold;
+    font-family: 'Neon';
+    font-size: 50px;
+    margin: 5px;
+}
+
+#shake {
+    margin: 10px;
+}
+
+.round {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 100px;
+    margin: 5px 0px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+#shake {
+    background-color: gold;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Neon';
+    padding: 2px;
+}
