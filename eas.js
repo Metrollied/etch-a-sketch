@@ -14,7 +14,7 @@ function restart() {
 
 function start() {
     let num = prompt("What would you like the width/height to be?")
-
+    num = parseInt(num);
     if (num > 0 && Number.isInteger(num)) {
         let i = (num * num - 1);
         const etchArea = document.querySelector('#etchArea');
