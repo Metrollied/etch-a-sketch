@@ -28,7 +28,7 @@ body {
 
 @font-face {
         font-family: Neon;
-        src: url(./Neon.ttf);
+        src: url(./fonts/Neon.ttf);
     }
 
 #etchArea {
